@@ -43,7 +43,7 @@ def decrypt_text(key, iv, ciphertext):
 
 key = '00112233445566778899AABBCCDDEEFF'
 iv = '1122334455667788'
-plaintext = 'kaifmunshi'
+plaintext = ''
 
 ciphertext = encrypt_text(key, iv, plaintext)
 print("Ciphertext:", ciphertext)
