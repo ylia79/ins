@@ -16,7 +16,7 @@ def vernam_cipher_decrypt(ciphertext, key):
     plaintext = ''.join(chr(ord(ciphertext[i]) ^ ord(key[i])) for i in range(len(ciphertext)))
     return plaintext
 
-plaintext = "KAIFMUNSHI"
+plaintext = ""
 key = generate_random_key(len(plaintext))
 encrypted_text = vernam_cipher_encrypt(plaintext, key)
 decrypted_text = vernam_cipher_decrypt(encrypted_text, key)
