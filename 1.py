@@ -8,7 +8,7 @@ def encrypt(text,s):
 		else:
 			result += chr((ord(char) + s - 97) % 26 + 97)
 	return result
-text = "kaifmunhsi"
+text = ""
 s = 3
 print(f'Text: {text}')
 print(f'Shift: {s}')
