@@ -25,7 +25,7 @@ def decryption(cipher_text, key):
         decrypted_text.append(chr(char ^ k))
     return ''.join(decrypted_text)
 if __name__ == '__main__':
-    plain_text = "KaifMunshi"
+    plain_text = ""
     key = "101001000001"
     cipher_text = encryption(plain_text, key)
     decrypted_text = decryption(cipher_text, key)
