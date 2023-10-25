@@ -22,7 +22,7 @@ def decrypt(encrypted_text, key):
             decrypted_text += char
     return decrypted_text
 
-text = "kaifmunshi"
+text = ""
 key = "abcdefghjklmnopqrstuvwxyz"
 cipher_text = encrypt(text, key)
 print("Cipher Text:", cipher_text)
