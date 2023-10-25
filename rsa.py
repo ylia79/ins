@@ -35,7 +35,7 @@ q = 53
 
 public_key, private_key = generate_keypair(p, q)
 
-message = "KaifMunshi"
+message = ""
 
 print("Plain text:", message)
 
