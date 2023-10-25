@@ -15,7 +15,7 @@ def des_decrypt(key, ciphertext):
     return decrypted_data
 
 secret_key = generate_key()
-data_to_encrypt = b'KaifMunshi'
+data_to_encrypt = b''
 encrypted_data = des_encrypt(secret_key, data_to_encrypt)
 print(f'Key: {secret_key.hex()}')
 print(f'Encrypted data: {encrypted_data.hex()}')
